@@ -1,6 +1,6 @@
-# 关于参数初始化可参考[深度学习的weight initialization](https://zhuanlan.zhihu.com/p/25110150)
+## 关于参数初始化可参考[深度学习的weight initialization](https://zhuanlan.zhihu.com/p/25110150)
 # 
-# 可以从torch的[文档](http://pytorch.org/docs/master/nn.html?highlight=init%20xavier_normal#torch.nn.init.xavier_normal)中得到
+## 可以从torch的[文档](http://pytorch.org/docs/master/nn.html?highlight=init%20xavier_normal#torch.nn.init.xavier_normal)中得到
 # 
 # - `init.xvaier_uniform()`一般用于tanh的初始化，结果采样于均匀分布 $$U(-a, a) \sim [-\frac {\sqrt{6}} {\sqrt{fan\_in + fan\_out}}, \frac {\sqrt{6}} {\sqrt{fan\_in + fan\_out}}]$$
 # - `init.xvarier_normal()`，结果采样于正态分布 $$N(0, \sqrt{\frac 2 {fan\_in + fan\_out}})$$
